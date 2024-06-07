@@ -19,7 +19,7 @@ const Rooms = () => {
         </p>
         <div className="text-center">
           <button className='ml-24 text-center border-black mr-4 hover:shadow-xl' onClick={handleClick}>
-            <Link to='/cloud'>Dowiedz się więcej</Link>
+            <Link to='/szkolenia'>Dowiedz się więcej</Link>
           </button>
         </div>
       </div>
