@@ -6,7 +6,7 @@ import yourImage5 from '../assets/arthur-lugovoy-FtMDTvgefpY-unsplash.jpg';
 
 const Rooms = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Przewiń do góry po załadowaniu komponentu
+    window.scrollTo(0, 0); // Przewiń do góry po załadowaniu nowej strony
   }, []); // Efekt jest wywoływany tylko raz, po pierwszym renderowaniu
 
   return (
