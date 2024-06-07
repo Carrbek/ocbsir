@@ -31,8 +31,8 @@ const Plan = () => {
       </div>
       {/* Right Side */}
       <div className='flex flex-col h-full justify-center'>
-        <h3 className='text-5xl md:text-6xl font-bold'>Jak działamy?</h3>
-        <p className='text-2xl py-6'>
+        <h3 className='text-4xl md:text-6xl font-bold'>Jak działamy?</h3>
+        <p className='text-xl py-6'>
           Dążymy do zapewnienia bezpieczeństwa w różnorodnych formach rekreacji i aktywności fizycznej w Polsce poprzez kompleksowy serwis. Oferujemy wysoki standard bezpieczeństwa dla placów zabaw, sale zabaw, dmuchańców, urządzeń siłowych, obiektów sportowych, skate parków, nawierzchni sportowych oraz parków rozrywki.
           <br/> Naszym celem jest zapewnienie użytkownikom pełnego bezpieczeństwa podczas aktywności fizycznej.
         </p>
