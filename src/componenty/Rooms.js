@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import yourImage8 from '../assets/pexels-alimuart-17467605.jpg';
 import yourImage9 from '../assets/anderson-schmig-xEasQisJLx0-unsplash.jpg';
 import yourImage5 from '../assets/arthur-lugovoy-FtMDTvgefpY-unsplash.jpg';
 
 const Rooms = () => {
-  const handleClick = (event) => {
-    event.preventDefault();
-    window.scrollTo(0, 0);
-  };
+  useEffect(() => {
+    window.scrollTo(0, 0); // Przewiń do góry po załadowaniu komponentu
+  }, []); // Efekt jest wywoływany tylko raz, po pierwszym renderowaniu
 
   return (
     <div className='max-w-[1400px] bg-blue-100 mx-auto px-4 grid lg:grid-cols-3'>
@@ -19,7 +18,7 @@ const Rooms = () => {
         </p>
         <div className="text-center">
           <button className='ml-24 text-center border-black mr-4 hover:shadow-xl'>
-            <Link to='/szkolenia' onClick={handleClick}>Dowiedz się więcej</Link>
+            <Link to='/szkolenia'>Dowiedz się więcej</Link>
           </button>
         </div>
       </div>
