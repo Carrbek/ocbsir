@@ -6,6 +6,8 @@ const Offers = () => {
       <p className='text-lg font-bold text-gray-700'>#SaleZabaw</p>
       <p className='text-lg font-bold text-gray-700'>#ParkiRozrywki</p>
       <p className='text-lg font-bold text-gray-700'>#Dmuchańce</p>
+      <p className='text-lg font-bold text-gray-700'>#Dmuchańce</p>
+
     </div>
   );
 };
