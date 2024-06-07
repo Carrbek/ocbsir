@@ -38,8 +38,8 @@ const Plan = () => {
         </p>
         <div className="pb-6">
           <button className='bg-black text-white border-black hover:shadow-xl mr-4'>
-            <Link to='/kontakt'>Kontakt do nas</Link>
-          </button>
+        <Link to="#top">Przesuń do góry</Link>
+        </button>
           <button className='border-black hover:shadow-xl'>
             <Link to='/about'>Dowiedz się więcej</Link>
           </button>
