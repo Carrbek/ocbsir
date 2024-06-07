@@ -37,12 +37,12 @@ const Plan = () => {
           <br/> Naszym celem jest zapewnienie użytkownikom pełnego bezpieczeństwa podczas aktywności fizycznej.
         </p>
         <div className="pb-6">
-          <button className='bg-black text-white border-black hover:shadow-xl mr-4'>
-        <Link to="#top">Przesuń do góry</Link>
-        </button>
+         <button className='bg-black text-white border-black hover:shadow-xl mr-4'>
+            <Link to='/kontakt'>Kontakt do nas</Link>
+          </button>
           <button className='border-black hover:shadow-xl'>
-<Link to='/kontakt'>Kontakt do nas</Link>
-        </button>
+            <Link to='/about'>Dowiedz się więcej</Link>
+          </button>
         </div>
       </div>
     </div>
