@@ -18,8 +18,8 @@ const Rooms = () => {
           Zapoznaj się z naszym systemem szkoleniowym. Regularnie organizujemy szkolenia dla producentów i właścicieli obiektów sportowych <br/> i rekreacyjnych. Nasze szkolenia nie tylko dostarczają wiedzy teoretycznej, ale także umożliwiają praktyczne wykorzystanie zdobytej wiedzy. Naszym celem jest wykształcenie profesjonalistów, którzy nie tylko rozumieją teorię, ale także potrafią skutecznie działać w praktyce, przyczyniając się do podnoszenia standardów bezpieczeństwa w branży.
         </p>
         <div className="text-center">
-          <button className='ml-24 text-center border-black mr-4 hover:shadow-xl' onClick={handleClick}>
-            <Link to='/szkolenia'>Dowiedz się więcej</Link>
+          <button className='ml-24 text-center border-black mr-4 hover:shadow-xl'>
+            <Link to='/szkolenia' onClick={handleClick}>Dowiedz się więcej</Link>
           </button>
         </div>
       </div>
